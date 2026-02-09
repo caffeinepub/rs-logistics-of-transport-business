@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Build a company website for RS LOGISTICS OF TRANSPORT BUSINESS (Bishnupur, Guwahati, Assam 781018) focused on transport of coal, agriculture, and goods.",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-responsive-marketing-website-for-the-company-name-rs-logistics-of-transport-business-and-clearly-state-the-location-bishnupur-guwahati-assam-781018-and-the-core-focus-transport-of-coal-agriculture-and-goods",
+      "title": "Create a responsive marketing website for the company name “RS LOGISTICS OF TRANSPORT BUSINESS” and clearly state the location “Bishnupur, Guwahati, Assam 781018” and the core focus: transport of coal, agriculture, and goods.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-core-pages-sections-suitable-for-a-logistics-company-website-home-hero-quick-service-highlights-about-company-overview-services-coal-agriculture-goods-transport-service-area-bishnupur-guwahati-assam-callout-and-contact-address-and-contact-methods",
+      "title": "Add core pages/sections suitable for a logistics company website: Home (hero + quick service highlights), About (company overview), Services (coal/agriculture/goods transport), Service Area (Bishnupur/Guwahati/Assam callout), and Contact (address and contact methods).",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-contact-form-ui-name-phone-email-message-that-validates-required-fields-on-the-client-and-shows-a-clear-success-failure-state-if-backend-submission-is-not-implemented-provide-clear-contact-alternatives-on-the-page-e-g-call-us-and-email-us-placeholders-in-english",
+      "title": "Implement a Contact form UI (Name, Phone, Email, Message) that validates required fields on the client and shows a clear success/failure state; if backend submission is not implemented, provide clear contact alternatives on the page (e.g., “Call us” and “Email us” placeholders) in English.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-define-and-apply-a-coherent-visual-theme-appropriate-for-a-transport-logistics-business-e-g-industrial-earthy-palette-using-charcoal-graphite-safety-orange-accents-off-white-backgrounds-strong-typography-consistent-spacing-and-section-hierarchy-and-apply-it-consistently-across-all-pages-sections",
+      "title": "Define and apply a coherent visual theme appropriate for a transport/logistics business (e.g., industrial/earthy palette using charcoal/graphite, safety-orange accents, off-white backgrounds; strong typography; consistent spacing and section hierarchy) and apply it consistently across all pages/sections.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-site-footer-that-repeats-the-company-name-and-location-and-includes-quick-links-to-the-main-sections-home-about-services-contact",
+      "title": "Add a site footer that repeats the company name and location and includes quick links to the main sections (Home/About/Services/Contact).",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-the-required-generated-images-to-the-project-as-static-assets-under-frontend-public-assets-generated-and-render-them-in-the-ui-e-g-logo-in-header-footer-hero-image-illustration-in-the-home-hero-section",
+      "title": "Add the required generated images to the project as static assets under frontend/public/assets/generated and render them in the UI (e.g., logo in header/footer; hero image/illustration in the home hero section).",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-contact-section-content-to-display-the-founder-name-raju-sarkar-with-title-founder-and-replace-the-placeholder-phone-number-with-91-8135954933-ensure-all-user-facing-text-remains-in-english-and-that-the-phone-number-is-presented-clearly-preferably-as-a-clickable-tel-link",
+      "title": "Update the Contact section content to display the founder name \"RAJU SARKAR\" with title \"Founder\", and replace the placeholder phone number with \"+91 8135954933\". Ensure all user-facing text remains in English and that the phone number is presented clearly (preferably as a clickable tel: link).",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-site-footer-contact-details-to-replace-the-placeholder-phone-number-with-91-8135954933-and-include-founder-identification-raju-sarkar-with-title-founder-in-the-footer-s-contact-company-info-area-ensure-all-user-facing-text-remains-in-english",
+      "title": "Update the site footer contact details to replace the placeholder phone number with \"+91 8135954933\" and include founder identification \"RAJU SARKAR\" with title \"Founder\" in the footer’s contact/company info area. Ensure all user-facing text remains in English.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-contact-form-phone-field-placeholder-text-to-reflect-the-provided-phone-format-use-91-8135954933-as-the-example-while-keeping-validation-behavior-unchanged",
+      "title": "Update the contact form phone field placeholder text to reflect the provided phone format (use \"+91 8135954933\" as the example), while keeping validation behavior unchanged.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create a website for RS LOGISTICS OF TRANSPORT BUSINESS (Bishnupur, Guwahati, Assam 781018) highlighting transport services for coal, agriculture, and goods.",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Add founder/contact details to the website content: Founder name 'RAJU SARKAR' and contact phone '+91 8135954933' (e.g., in Contact section/footer).",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "RS LOGISTICS OF TRANSPORT BUSINESS",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

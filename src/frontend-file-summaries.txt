@@ -1,0 +1,14 @@
+{
+  "frontend/src/index.css": "Global styles with industrial/logistics theme using charcoal/graphite neutrals, safety-orange primary color, and OKLCH color system for both light and dark modes.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with industrial design tokens, custom shadows, container settings, and fade-in animations.",
+  "frontend/src/App.tsx": "Main application component that renders the complete single-page layout with header, all sections (Home, About, Services, Service Area, Contact), and footer.",
+  "frontend/src/components/SiteHeader.tsx": "Responsive navigation header with logo, smooth-scroll navigation links, mobile menu, and \"Get Quote\" CTA button.",
+  "frontend/src/components/SiteFooter.tsx": "Footer component displaying company name, founder identification (RAJU SARKAR), address, clickable phone number (+91 8135954933), quick links, services list, social links, and attribution.",
+  "frontend/src/components/sections/HomeSection.tsx": "Hero section featuring company name, location, value proposition, service highlights, CTA buttons, and hero image with floating statistics cards.",
+  "frontend/src/components/sections/AboutSection.tsx": "About section with company story, mission statement, and four core values (Reliability, Excellence, Customer Focus, Growth) displayed in a grid.",
+  "frontend/src/components/sections/ServicesSection.tsx": "Services section showcasing three transport services (Coal, Agriculture, Goods) with icons, descriptions, feature lists, and additional service highlights.",
+  "frontend/src/components/sections/ServiceAreaSection.tsx": "Service area section highlighting Bishnupur/Guwahati/Assam coverage with location details, network information, and coverage areas list.",
+  "frontend/src/components/sections/ContactSection.tsx": "Contact section with founder identification (RAJU SARKAR), company address, clickable phone number (+91 8135954933), email, business hours, and integrated contact form.",
+  "frontend/src/components/ContactForm.tsx": "Fully validated contact form with Name, Phone (placeholder updated to +91 8135954933), Email, and Message fields, client-side validation, inline error messages, and success/error states.",
+  "frontend/src/hooks/useQueries.ts": "Placeholder file for React Query hooks; empty as backend has no functionality for this brochure site."
+}

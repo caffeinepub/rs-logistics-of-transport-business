@@ -1,0 +1,73 @@
+{
+  "kind": "build_request",
+  "title": "Add founder name and phone number to Contact section and footer",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-7",
+      "text": "Update the Contact section content to display the founder name \"RAJU SARKAR\" with title \"Founder\", and replace the placeholder phone number with \"+91 8135954933\". Ensure all user-facing text remains in English and that the phone number is presented clearly (preferably as a clickable tel: link).",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "Name RAJU SARKAR FOUNDER \nCONTACT NO +91 8135954933"
+        ]
+      },
+      "acceptanceCriteria": [
+        "On the Contact section (frontend/src/components/sections/ContactSection.tsx), the displayed phone number is \"+91 8135954933\" (no placeholder remains).",
+        "The Contact section includes founder identification: \"RAJU SARKAR\" and \"Founder\".",
+        "The phone number in the Contact section is clickable (tel:+918135954933) and visually consistent with the existing contact info UI."
+      ]
+    },
+    {
+      "id": "REQ-8",
+      "text": "Update the site footer contact details to replace the placeholder phone number with \"+91 8135954933\" and include founder identification \"RAJU SARKAR\" with title \"Founder\" in the footer’s contact/company info area. Ensure all user-facing text remains in English.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "Name RAJU SARKAR FOUNDER \nCONTACT NO +91 8135954933"
+        ]
+      },
+      "acceptanceCriteria": [
+        "In the footer (frontend/src/components/SiteFooter.tsx), the displayed phone number is \"+91 8135954933\" (no placeholder remains).",
+        "The footer includes founder identification: \"RAJU SARKAR\" and \"Founder\" in a sensible location within the footer content.",
+        "If the footer phone is interactive, it uses tel:+918135954933 and does not break layout on mobile."
+      ]
+    },
+    {
+      "id": "REQ-9",
+      "text": "Update the contact form phone field placeholder text to reflect the provided phone format (use \"+91 8135954933\" as the example), while keeping validation behavior unchanged.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "CONTACT NO +91 8135954933"
+        ]
+      },
+      "acceptanceCriteria": [
+        "In frontend/src/components/ContactForm.tsx, the phone input placeholder is updated to a realistic example based on \"+91 8135954933\".",
+        "Client-side validation and success/error UI behavior remains unchanged."
+      ]
+    }
+  ],
+  "constraints": [
+    "Frontend immutable paths must not be edited: frontend/src/hooks/useInternetIdentity.ts, frontend/src/hooks/useInternetIdentity.tsx, frontend/src/hooks/useActor.ts, frontend/src/main.tsx, frontend/src/components/ui.",
+    "Keep all user-facing text in English."
+  ],
+  "nonGoals": [
+    "Implementing backend form submission or storing contact inquiries in the Motoko backend.",
+    "Adding or changing email address details (no email was provided by the user).",
+    "Changing the site’s overall layout or theme beyond inserting the requested founder/phone details."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

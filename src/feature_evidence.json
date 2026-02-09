@@ -1,0 +1,59 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-update-the-contact-section-content-to-display-the-founder-name-raju-sarkar-with-title-founder-and-replace-the-placeholder-phone-number-with-91-8135954933-ensure-all-user-facing-text-remains-in-english-and-that-the-phone-number-is-presented-clearly-preferably-as-a-clickable-tel-link",
+      "featureTitle": "Update the Contact section content to display the founder name \"RAJU SARKAR\" with title \"Founder\", and replace the placeholder phone number with \"+91 8135954933\". Ensure all user-facing text remains in English and that the phone number is presented clearly (preferably as a clickable tel: link).",
+      "files": [
+        "frontend/src/components/sections/ContactSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-the-site-footer-contact-details-to-replace-the-placeholder-phone-number-with-91-8135954933-and-include-founder-identification-raju-sarkar-with-title-founder-in-the-footer-s-contact-company-info-area-ensure-all-user-facing-text-remains-in-english",
+      "featureTitle": "Update the site footer contact details to replace the placeholder phone number with \"+91 8135954933\" and include founder identification \"RAJU SARKAR\" with title \"Founder\" in the footer’s contact/company info area. Ensure all user-facing text remains in English.",
+      "files": [
+        "frontend/src/components/SiteFooter.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-8"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-the-contact-form-phone-field-placeholder-text-to-reflect-the-provided-phone-format-use-91-8135954933-as-the-example-while-keeping-validation-behavior-unchanged",
+      "featureTitle": "Update the contact form phone field placeholder text to reflect the provided phone format (use \"+91 8135954933\" as the example), while keeping validation behavior unchanged.",
+      "files": [
+        "frontend/src/components/ContactForm.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-9"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

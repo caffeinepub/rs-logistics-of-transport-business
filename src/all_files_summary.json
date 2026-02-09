@@ -1,0 +1,23 @@
+{
+  "backend/main.mo": "Empty Motoko actor placeholder with no backend logic.",
+  "feature_evidence.json": "Feature evidence listing required UI updates for contact info, phone number, and founder details across specific frontend files.",
+  "frontend-file-summaries.txt": "Text file containing short descriptions of various frontend components and styles.",
+  "frontend/index.css": "Tailwind base layer defining OKLCH design tokens and light/dark theme variables.",
+  "frontend/index.html": "Root HTML template mounting the React app via main.tsx.",
+  "frontend/src/App.tsx": "Main React layout composing header, all sections, and footer.",
+  "frontend/src/components/ContactForm.tsx": "Validated contact form component with fields, error handling, and simulated async submission.",
+  "frontend/src/components/sections/AboutSection.tsx": "Renders an About section with company overview, mission, story, and value cards using icon-based highlights.",
+  "frontend/src/components/sections/ContactSection.tsx": "Displays a contact section with founder details, address, phone, email, business hours, and an embedded contact form.",
+  "frontend/src/components/sections/HomeSection.tsx": "Defines the homepage hero section with a headline, highlights, CTA buttons, and a hero image with floating stats.",
+  "frontend/src/components/sections/ServiceAreaSection.tsx": "Shows the service area overview with base location, coverage details, and a list of regions served.",
+  "frontend/src/components/sections/ServicesSection.tsx": "Provides a grid of service cards describing coal, agriculture, and goods transport, each with features and icons.",
+  "frontend/src/components/SiteFooter.tsx": "Footer with company info, founder details, links, services, and contact information.",
+  "frontend/src/components/SiteHeader.tsx": "Responsive header with logo, navigation links, scroll behavior, and mobile menu.",
+  "frontend/src/hooks/useActor.ts": "Custom React hook that creates and manages an authenticated or anonymous backend actor and refreshes dependent queries on change.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Provides a React context and provider for Internet Identity authentication using AuthClient, exposing identity state, login, logout, and status flags.",
+  "frontend/src/hooks/useQueries.ts": "Placeholder file for backend React Query hooks; currently exports nothing because no backend queries are needed.",
+  "frontend/src/index.css": "Defines Tailwind base styles and a custom industrial color theme using CSS variables, along with typography and utility adjustments.",
+  "frontend/src/main.tsx": "Bootstraps the React app, wrapping it with React Query and Internet Identity providers before rendering App.",
+  "frontend/tailwind.config.js": "Configures Tailwind with custom colors, typography, container settings, animations, and plugins for the site's design system.",
+  "project_state.json": "Stores project metadata, versioning, and a list of implemented website features and requirements."
+}

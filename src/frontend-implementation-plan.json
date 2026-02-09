@@ -1,0 +1,54 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Add founder name and phone number to Contact section and footer",
+  "requirements": [
+    {
+      "id": "REQ-7",
+      "summary": "Update Contact section to show founder identification and replace placeholder phone number with a clickable +91 8135954933 tel link.",
+      "acceptanceCriteria": [
+        "On the Contact section (frontend/src/components/sections/ContactSection.tsx), the displayed phone number is \"+91 8135954933\" (no placeholder remains).",
+        "The Contact section includes founder identification: \"RAJU SARKAR\" and \"Founder\".",
+        "The phone number in the Contact section is clickable (tel:+918135954933) and visually consistent with the existing contact info UI."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/sections/ContactSection.tsx",
+          "operation": "modify",
+          "description": "Replace the placeholder phone text with \"+91 8135954933\" and render it as an interactive tel link using tel:+918135954933 while keeping the existing Contact Information layout/styles. Add founder identification (\"RAJU SARKAR\" + \"Founder\") in the contact info area in a sensible, English-only presentation without changing overall section layout."
+        }
+      ]
+    },
+    {
+      "id": "REQ-8",
+      "summary": "Update footer contact/company info to include founder identification and replace placeholder phone number with +91 8135954933 (preferably tel link) without breaking mobile layout.",
+      "acceptanceCriteria": [
+        "In the footer (frontend/src/components/SiteFooter.tsx), the displayed phone number is \"+91 8135954933\" (no placeholder remains).",
+        "The footer includes founder identification: \"RAJU SARKAR\" and \"Founder\" in a sensible location within the footer content.",
+        "If the footer phone is interactive, it uses tel:+918135954933 and does not break layout on mobile."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/SiteFooter.tsx",
+          "operation": "modify",
+          "description": "Update the footer phone display from the placeholder to \"+91 8135954933\" and (if rendered as a link) use tel:+918135954933. Add founder identification (\"RAJU SARKAR\" and \"Founder\") within the footer’s company/contact info area, maintaining existing typography and spacing so the contact row(s) remain readable and do not wrap awkwardly on small screens. Keep all user-facing text in English."
+        }
+      ]
+    },
+    {
+      "id": "REQ-9",
+      "summary": "Update contact form phone placeholder to a realistic example based on +91 8135954933 while keeping validation and submission UX unchanged.",
+      "acceptanceCriteria": [
+        "In frontend/src/components/ContactForm.tsx, the phone input placeholder is updated to a realistic example based on \"+91 8135954933\".",
+        "Client-side validation and success/error UI behavior remains unchanged."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/ContactForm.tsx",
+          "operation": "modify",
+          "description": "Change only the phone input placeholder from the generic/placeholder format to an example matching the requested format (e.g., \"+91 8135954933\"). Do not alter validation regex, error messages, submit simulation, or success/error state behavior."
+        }
+      ]
+    }
+  ]
+}
